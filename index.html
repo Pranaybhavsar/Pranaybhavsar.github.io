@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pranay Bhavsar | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet"/>
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #f5f5f5;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    header {
+      background: #0d1117;
+      color: #fff;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      margin: 0.5rem 0 0;
+    }
+    section {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    h2 {
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 0.3rem;
+    }
+    ul {
+      padding-left: 1.2rem;
+    }
+    .project, .exp-item {
+      margin-bottom: 1.5rem;
+    }
+    .footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #777;
+      padding: 2rem 0;
+    }
+    a {
+      color: #0366d6;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Pranay Bhavsar</h1>
+    <p>MS Electrical Engineering | Digital Design & Verification | San Jose State University</p>
+    <p>
+      <a href="mailto:pranaysbhavsar@gmail.com">Email</a> |
+      <a href="https://linkedin.com/in/pranaybhavsar" target="_blank">LinkedIn</a> |
+      <a href="https://github.com/pranaysbhavsar" target="_blank">GitHub</a>
+    </p>
+  </header>
+
+  <section>
+    <h2>Technical Skills</h2>
+    <p><strong>Languages:</strong> Verilog, SystemVerilog, Python, C/C++, TCL, Perl</p>
+    <p><strong>EDA Tools:</strong> Synopsys VCS, Design Compiler, PrimePower, Vivado, Virtuoso</p>
+    <p><strong>Concepts:</strong> STA, Low Power Design, Digital Design, ASIC Flow</p>
+    <p><strong>Protocols:</strong> UART, SPI, I2C, AXI, APB, AHB</p>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>SoC-Based Neural Network Evaluation Engine</h3>
+      <p><em>SystemVerilog, Design Compiler – Aug 2024 to Dec 2024</em></p>
+      <ul>
+        <li>Designed an NN engine with pipelined 11-bit FP units at 1GHz frequency.</li>
+        <li>Built 352-bit read / 176-bit write buses with 16-cycle burst support.</li>
+        <li>Implemented APB-like register interface for efficient control operations.</li>
+      </ul>
+    </div>
+
+    <div class="project">
+      <h3>Verification of FFT and Slicing Block</h3>
+      <p><em>SystemVerilog, UVM, Python – Feb 2024 to May 2024</em></p>
+      <ul>
+        <li>Developed UVM testbench for 10 encrypted DUTs using randomized input.</li>
+        <li>Built FFT/decoder models to validate functional correctness.</li>
+        <li>Automated verification with Python scripts, reducing test time by 40%.</li>
+      </ul>
+    </div>
+
+    <div class="project">
+      <h3>Canny Edge Detection Accelerator</h3>
+      <p><em>Verilog, Vivado – Oct 2023 to Dec 2023</em></p>
+      <ul>
+        <li>RTL for pipelined edge detection with Gaussian, Sobel, and tracking modules.</li>
+        <li>Integrated AXI4-Stream and validated on PYNQ-Z1 FPGA.</li>
+      </ul>
+    </div>
+
+    <div class="project">
+      <h3>5-Stage Pipelined MIPS Processor</h3>
+      <p><em>Verilog – Aug 2023 to Oct 2023</em></p>
+      <ul>
+        <li>Built 32-bit MIPS CPU with forwarding, branch prediction, and hazard unit.</li>
+        <li>Achieved 3.5× speedup with 100MHz operation.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Experience</h2>
+    <div class="exp-item">
+      <h3>Embedded System Software Intern – Nutron Systems</h3>
+      <p><em>Jan 2022 – Apr 2022</em></p>
+      <ul>
+        <li>Developed ESP32-based IoT gateway with MQTT integration for Noxview.</li>
+        <li>Implemented OTA updates via GitHub; improved firmware update time by 30%.</li>
+        <li>Built multithreaded Python services and device control APIs.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    <p><strong>San Jose State University</strong> – MS in Electrical Engineering (GPA: 3.74)<br><em>Aug 2023 – May 2025</em></p>
+    <p><strong>Gujarat Technological University</strong> – BE in ECE<br><em>Jul 2018 – Jun 2022</em></p>
+  </section>
+
+  <div class="footer">
+    &copy; 2025 Pranay Bhavsar | Built with HTML/CSS | Hosted on GitHub Pages
+  </div>
+</body>
+</html>
